@@ -1,4 +1,4 @@
-# Festive-Greeting
+# Festive-Greeting-Action
 
 ## Example usage
 
