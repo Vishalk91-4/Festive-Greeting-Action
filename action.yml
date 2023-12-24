@@ -1,0 +1,21 @@
+name: 'Festive Greetings'
+description: 'Generate Festival greetings with OpenAI'
+inputs:
+  prompt: # id of input
+    description: 'Let the AI know who the message is for and provide context about the person.'
+    required: true
+    default: 'Vishal is a friend of mine'
+  api-key:
+    description: 'The API key for the OpenAI API'
+    required: true
+    default: '0123456789'
+  endpoint:
+    description: 'Your endpoint for the Azure OpenAI API'
+    required: true
+    default: ''
+outputs:
+  seasons-greeting: # id of output
+    description: 'The AI generated Festival greeting'
+runs:
+  using: 'node20'
+  main: 'index.js'
